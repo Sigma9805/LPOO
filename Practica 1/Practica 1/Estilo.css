@@ -1,0 +1,48 @@
+#buscador > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+buscador{
+	color : #130909;
+}
+buscador:hover{
+	color : #5a5a5a;
+}
+#barraNavegacion {
+position : absolute;
+left : 0;
+width : 100%;
+background : url(imagenes/imagen.jpg);
+}
+#barraNavegacion ul {
+margin : 0 auto;
+width : 940px;
+list-style : none;
+}
+#barraNavegacion ul li {
+float : left;
+}
+#barraNavegacion ul li a {
+display : block;
+margin-right : 20px;
+width : 140px;
+font-size : 14px;
+line-height : 44px;
+text-align : center;
+text-decoration : none;
+color : #130909;
+}
+#barraNavegacion ul li a:hover {
+color : #5a5a5a;
+}
+#barraNavegacion ul li.selected a {
+color : #fff;
+}
+body {
+
+background-image: url(imagenes/link.jpg);
+background-position: center;
+background-repeat: no-repeat;
+
+}
